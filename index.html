@@ -1,120 +1,108 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sencillamente Fit</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sencillamente Fit</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <nav>
-        <a href="#">Inicio</a>
-        <a href="#">Beneficios</a>
-        <a href="#">Lugares</a>
-        <a href="#">Recetas</a>
-        <a href="#">Calistenia</a>
-        <a href="#">Cócteles Fit</a>
-        <a href="#">Sobre mí</a>
-        <a href="#">Contacto</a>
-    </nav>
+<header class="topbar">
+  <img src="logo-sf.png" alt="Sencillamente Fit" class="nav-logo">
+  <nav>
+    <a href="#">Inicio</a>
+    <a href="#">Beneficios</a>
+    <a href="#">Lugares</a>
+    <a href="#">Recetas</a>
+    <a href="#">Calistenia</a>
+    <a href="#">Cócteles Fit</a>
+    <a href="#">Sobre mí</a>
+    <a href="#">Contacto</a>
+  </nav>
+</header>
 
-    <section class="hero">
+<section class="hero-brand">
+  <div class="hero-text">
+    <img src="logo-sf.png" alt="Sencillamente Fit" class="hero-logo">
 
-        <div style="max-width:1200px;margin:auto;display:flex;align-items:center;gap:60px;flex-wrap:wrap;">
+    <h1>Comer rico, entrenar fuerte y vivir sin gluten también puede ser sencillo.</h1>
 
-            <div style="flex:1;min-width:300px;text-align:center;">
-                <img src="foto-anillas.jpeg"
-                     alt="Valeria haciendo calistenia"
-                     style="width:100%;max-width:420px;border-radius:30px;">
-            </div>
+    <p>
+      Recetas fit, beneficios gluten free, lugares recomendados y datos útiles
+      para una vida activa, rica y en equilibrio.
+    </p>
 
-            <div style="flex:1;min-width:320px;">
+    <div class="hero-buttons">
+      <a href="#" class="button">🎁 Ver beneficios</a>
+      <a href="#" class="button secondary">🍴 Explorar recetas</a>
+    </div>
+  </div>
 
-                <img src="logo-sf.png"
-                     alt="Sencillamente Fit"
-                     style="max-width:450px;width:100%;margin-bottom:25px;">
+  <div class="hero-image">
+    <img src="foto-anillas.jpeg" alt="Valeria entrenando calistenia en anillas">
+  </div>
+</section>
 
-                <p style="font-size:32px;font-weight:600;line-height:1.3;">
-                    Comer rico, entrenar fuerte y vivir sin gluten también puede ser sencillo.
-                </p>
+<section class="brand-strip">
+  <span>♡ Sin gluten</span>
+  <span>♡ Calistenia</span>
+  <span>♡ Vida activa</span>
+  <span>♡ Equilibrio</span>
+</section>
 
-                <p style="font-size:20px;line-height:1.6;">
-                    Recetas fit, beneficios gluten free, lugares recomendados y todo lo que necesitas para una vida activa, rica y en equilibrio.
-                </p>
+<section class="section">
+  <h2>Explora por categorías</h2>
 
-                <a href="#" class="button">🎁 Ver beneficios</a>
+  <div class="cards five">
+    <div class="card beneficios">
+      <h3>🎁 Beneficios Gluten Free</h3>
+      <p>Descuentos, códigos y beneficios para la comunidad gluten free.</p>
+    </div>
 
-                <a href="#" class="button secondary">🍴 Explorar recetas</a>
+    <div class="card lugares">
+      <h3>📍 Lugares Gluten Free</h3>
+      <p>Cafeterías, restaurantes, pastelerías y datos recomendados en Chile.</p>
+    </div>
 
-            </div>
+    <div class="card recetas">
+      <h3>🍴 Recetas Fit</h3>
+      <p>Recetas dulces, saladas y preparaciones altas en proteína.</p>
+    </div>
 
-        </div>
+    <div class="card calistenia">
+      <h3>💪 Calistenia</h3>
+      <p>Mi experiencia, progresos y consejos para entrenar.</p>
+    </div>
 
-    </section>
+    <div class="card mocktails">
+      <h3>🍹 Cócteles Fit</h3>
+      <p>Ideas para disfrutar sin perder el equilibrio.</p>
+    </div>
+  </div>
+</section>
 
-    <section class="section">
+<section class="section about-section">
+  <div class="about-image">
+    <img src="foto-anillas.jpeg" alt="Valeria haciendo calistenia">
+  </div>
 
-        <h2>Explora por categorías</h2>
+  <div class="about">
+    <h2>Hola, soy Valeria</h2>
+    <p>
+      Soy celíaca, amante de la calistenia y creadora de contenido sobre alimentación saludable.
+    </p>
+    <p>
+      En Sencillamente Fit comparto recetas, beneficios, lugares recomendados y experiencias
+      para demostrar que una vida gluten free puede ser rica, activa y entretenida.
+    </p>
+  </div>
+</section>
 
-        <div class="cards">
-
-            <div class="card beneficios">
-                <h3>🎁 Beneficios Gluten Free</h3>
-                <p>
-                    Descuentos, códigos y beneficios para la comunidad gluten free.
-                </p>
-            </div>
-
-            <div class="card recetas">
-                <h3>🍴 Recetas Fit</h3>
-                <p>
-                    Recetas dulces, saladas y preparaciones altas en proteína.
-                </p>
-            </div>
-
-            <div class="card mocktails">
-                <h3>🍹 Cócteles Fit</h3>
-                <p>
-                    Ideas para disfrutar sin perder el equilibrio.
-                </p>
-            </div>
-
-            <div class="card calistenia">
-                <h3>💪 Calistenia</h3>
-                <p>
-                    Mi experiencia, progresos y consejos para entrenar.
-                </p>
-            </div>
-
-        </div>
-
-    </section>
-
-    <section class="section">
-
-        <div class="about">
-
-            <h2>Hola, soy Valeria 👋</h2>
-
-            <p>
-                Soy celíaca, amante de la calistenia y creadora de contenido sobre alimentación saludable.
-            </p>
-
-            <p>
-                A través de Sencillamente Fit comparto recetas, beneficios, lugares recomendados y experiencias para demostrar que una vida gluten free puede ser rica, activa y entretenida.
-            </p>
-
-        </div>
-
-    </section>
-
-    <footer>
-        ♡ SIN GLUTEN · CALISTENIA · VIDA ACTIVA · EQUILIBRIO ♡
-    </footer>
+<footer>
+  ♡ SIN GLUTEN · CALISTENIA · VIDA ACTIVA · EQUILIBRIO ♡
+</footer>
 
 </body>
-
 </html>
